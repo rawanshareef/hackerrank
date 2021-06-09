@@ -24,6 +24,7 @@
 ![image](https://user-images.githubusercontent.com/73065095/121351649-acd42a00-c934-11eb-9f9e-c316217290ef.png)
 
 **2**
+
 **StringStream**
 
 
@@ -32,17 +33,20 @@
 
 **3**
 
-הסטים הם חלק מ- C ++ STL. ערכות הן מכולות המאחסנות אלמנטים ייחודיים בעקבות הזמנה ספציפית. להלן כמה מתפקודי החברים הנפוצים של קבוצות:
+**Sets-STL **
 
-למידע נוסף על סטים לחצו כאן. אם תגיע לבעיה, תקבל שאילתות. כל שאילתת Q היא אחת משלושת הסוגים הבאים:
- 1 X: הוסף אלמנט X לסט.
- 2 X: מחק אלמנט X מהסט. (אם המספר X אינו קיים בערכה, אז אל תעשה כלום).
-3 X: אם המספר X קיים בערכה, הדפיסו "כן" (ללא מרכאות) אחרת הדפיסו "לא" (ללא מרכאות).
+Sets are a part of the C++ STL. Sets are containers that store unique elements following a specific order. Here are some of the frequently used member functions of sets:
 
-פורמט הכנסה
-השורה הראשונה של הקלט מכילה Q איפה מספר השאילתות. שורות ה- Q הבאות מכילות שאילתה אחת כל אחת. כל שאילתה מורכבת משני מספרים שלמים y ו- x היכן הוא סוג השאילתה ו- x הוא מספר שלם.
+To know more about sets click Here. Coming to the problem, you will be given  queries. Each  Q query is of one of the following three types:
+ 1 X : Add an element  X to the set.
+ 2 X : Delete an element  X from the set. (If the number X  is not present in the set, then do nothing).
+3 X  : If the number  X  is present in the set, then print "Yes"(without quotes) else print "No"(without quotes).
 
-פורמט פלט
-לשאילתות מסוג print3 "כן" (ללא מרכאות) אם המספר קיים בערכה ואם המספר x אינו קיים, הדפס "לא" (ללא מרכאות).
-יש להדפיס כל שאילתה מסוג 3 בשורה חדשה.
+Input Format
+The first line of the input contains Q where  is the number of queries. The next Q  lines contain 1 query each. Each query consists of two integers y and x where  is the type of the query and x  is an integer.
+
+Output Format
+For queries of type  print3  "Yes"(without quotes) if the number  is present in the set and if the number x is not present, then print "No"(without quotes).
+Each query of type 3 should be printed in a new line.
+
 ![image](https://user-images.githubusercontent.com/73065095/121353467-916a1e80-c936-11eb-895b-f9082cfe7846.png)
